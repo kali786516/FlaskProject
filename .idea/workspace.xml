@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e19621fd-f9e3-445a-9564-15d12d918e9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Flask/SimpleFlask/create_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/metadata/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/metadata/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/SimpleFlask/BookModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/data/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/data/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/data/.part-00000-dbead994-1abd-4714-9386-2ebd026dcce2-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/data/.part-00000-dbead994-1abd-4714-9386-2ebd026dcce2-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/data/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/FlaskMicroService/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/data/part-00000-dbead994-1abd-4714-9386-2ebd026dcce2-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/data/part-00000-dbead994-1abd-4714-9386-2ebd026dcce2-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/metadata/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/metadata/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/metadata/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/FlaskMicroService/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskMLModelApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/MLModelsApi/FlaskMLModelApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00000-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00000-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00001-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00001-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00002-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00002-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00003-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00003-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00004-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00004-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00005-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00005-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00006-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00006-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00007-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00007-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00008-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00008-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00009-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/.part-00009-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/data/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00000-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00000-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00001-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00001-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00002-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00002-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00003-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00003-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00004-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00004-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00005-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00005-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00006-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00006-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00007-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00007-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00008-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00008-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00009-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/part-00009-7bd41373-daf2-465d-8397-a560f99c1b80-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/metadata/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/metadata/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/metadata/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/ClusteringMLModels/TitanicClustering/TitanicClustering.model_v1/metadata/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/userFactors/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/userFactors/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/userFactors/.part-00000-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/userFactors/.part-00000-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/userFactors/.part-00007-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/userFactors/.part-00007-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/userFactors/.part-00008-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/userFactors/.part-00008-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/userFactors/.part-00009-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/userFactors/.part-00009-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/userFactors/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/itemFactors/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/userFactors/part-00000-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/userFactors/part-00000-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/userFactors/part-00007-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/userFactors/part-00007-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/userFactors/part-00008-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/userFactors/part-00008-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecomendationMLModels/Recomendation.model_v1/userFactors/part-00009-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/userFactors/part-00009-b568eb4a-fb66-465b-a3a7-819644b51f40-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TitaniClusteringFlaskApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/MLModelsApi/TitaniClusteringFlaskApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/SimpleFlask/UserModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/metadata/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/metadata/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/metadata/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/metadata/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/data/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/data/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/data/.part-00000-efc1ba7f-2cd9-45ea-88cc-a17d3193d179-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/data/.part-00000-efc1ba7f-2cd9-45ea-88cc-a17d3193d179-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/data/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/RecomendationMLModels/Recomendation.model_v1/userFactors/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/data/part-00000-efc1ba7f-2cd9-45ea-88cc-a17d3193d179-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/data/part-00000-efc1ba7f-2cd9-45ea-88cc-a17d3193d179-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/metadata/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/metadata/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/metadata/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/metadata/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/data/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/data/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/data/.part-00000-5e7c2287-4dd3-4a61-be0d-0f9f77a54864-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/data/.part-00000-5e7c2287-4dd3-4a61-be0d-0f9f77a54864-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/data/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/data/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/data/part-00000-5e7c2287-4dd3-4a61-be0d-0f9f77a54864-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/data/part-00000-5e7c2287-4dd3-4a61-be0d-0f9f77a54864-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/metadata/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/metadata/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/metadata/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/0_strIdx_ffb77eaa8584/metadata/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/data/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/data/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/data/.part-00000-aea6eebc-aaf8-46fd-a9e3-368d1620fc62-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/data/.part-00000-aea6eebc-aaf8-46fd-a9e3-368d1620fc62-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/data/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/data/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/data/part-00000-aea6eebc-aaf8-46fd-a9e3-368d1620fc62-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/data/part-00000-aea6eebc-aaf8-46fd-a9e3-368d1620fc62-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/metadata/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/metadata/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/metadata/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/1_strIdx_1de9f0b6f2ea/metadata/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/3_vecAssembler_bcd143cd9f08/metadata/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/3_vecAssembler_bcd143cd9f08/metadata/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/3_vecAssembler_bcd143cd9f08/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/3_vecAssembler_bcd143cd9f08/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/3_vecAssembler_bcd143cd9f08/metadata/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/data/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/3_vecAssembler_bcd143cd9f08/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/3_vecAssembler_bcd143cd9f08/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/data/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/data/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/data/.part-00000-98150eb0-251f-4c1d-8e36-1f8f889b112a-c000.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/data/.part-00000-98150eb0-251f-4c1d-8e36-1f8f889b112a-c000.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/data/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/2_strIdx_23d3d21a0d67/metadata/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/data/part-00000-98150eb0-251f-4c1d-8e36-1f8f889b112a-c000.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/data/part-00000-98150eb0-251f-4c1d-8e36-1f8f889b112a-c000.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/metadata/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/metadata/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/metadata/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/3_vecAssembler_bcd143cd9f08/metadata/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/data/.XGBoostClassificationModel.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/data/.XGBoostClassificationModel.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/data/XGBoostClassificationModel" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/data/XGBoostClassificationModel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/metadata/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/metadata/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/metadata/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/4_chiSqSelector_01940c1b0300/data/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostMLModel/telco_churn_xg.model_v1/stages/5_xgbc_a072b7c21edd/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostWrappers/pyspark-xgb-wrapper.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostWrappers/pyspark-xgb-wrapper.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostWrappers/spark-xgb-wrapper.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostWrappers/spark-xgb-wrapper.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostWrappers/xgboost4j-0.80.jar" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostWrappers/xgboost4j-0.80.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoostWrappers/xgboost4j-spark-0.80.jar" beforeDir="false" afterPath="$PROJECT_DIR$/MLModels/XGBoostWrappers/xgboost4j-spark-0.80.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/SimpleFlask/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksApiDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/SimpleFlask/booksApiDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movieRecomendationApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/MLModelsApi/movieRecomendationApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/SimpleFlask/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/SimpleFlask/test.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/user_service.git/app/user_api/routes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/user_service.git/app/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/product_service.git/app/product_api/routes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user_api_blueprint</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Flask/FlaskMicroService/product_service.git" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/venv/booksApi.py" />
+        <option value="$PROJECT_DIR$/create_db.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/BookModel.py" />
+        <option value="$PROJECT_DIR$/UserModel.py" />
+        <option value="$PROJECT_DIR$/booksApiDB.py" />
+        <option value="$PROJECT_DIR$/FlaskMLModelPython.py" />
+        <option value="$PROJECT_DIR$/FlaskMLModelApi.py" />
+        <option value="$PROJECT_DIR$/TitaniClusteringFlaskApi.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/movieRecomendationApi.py" />
+        <option value="$PROJECT_DIR$/Flask/FlaskMicroService/app.py" />
+        <option value="$PROJECT_DIR$/Flask/FlaskMicroService/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="942" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlaskProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Flask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Flask" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskMicroService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Flask" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskMicroService" type="462c0819:PsiDirectoryNode" />
+              <item name="product_service.git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Flask" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskMicroService" type="462c0819:PsiDirectoryNode" />
+              <item name="product_service.git" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Flask" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskMicroService" type="462c0819:PsiDirectoryNode" />
+              <item name="product_service.git" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="product_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/XGBoostMLModel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/XGBoostMLModel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Flask/MLModelsApi" />
+      <recent name="$PROJECT_DIR$/MLModels" />
+      <recent name="$PROJECT_DIR$/Flask" />
+      <recent name="$PROJECT_DIR$/SimpleFlask" />
+      <recent name="$PROJECT_DIR$/XGBoostWrappers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.FlaskMLModelApi">
+    <configuration name="FlaskMLModelApi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlaskProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/MLModelsApi/FlaskMLModelApi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlaskProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SimpleFlask/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="booksApi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlaskProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/booksApi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlaskProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SimpleFlask/create_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.FlaskMLModelApi" />
+        <item itemvalue="Python.create_db" />
+        <item itemvalue="Python.booksApi" />
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e19621fd-f9e3-445a-9564-15d12d918e9e" name="Default Changelist" comment="" />
+      <created>1560976194648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560976194648</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22748815" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46237624" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32970297" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36336634" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FlaskMLModelPython.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/pyspark/ml/param/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6461">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/booksApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="103" selection-start-line="103" selection-end-line="103" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/SimpleFlask/booksApiDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="true" selection-end-line="99" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/MLModelsApi/FlaskMLModelApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="114" column="18" lean-forward="true" selection-end-line="146" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/SimpleFlask/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/SimpleFlask/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="23" lean-forward="true" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/MLModelsApi/TitaniClusteringFlaskApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="88" column="42" selection-end-line="120" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/MLModelsApi/movieRecomendationApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="873">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/SimpleFlask/create_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/SimpleFlask/BookModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/SimpleFlask/UserModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/SimpleFlask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/user_service.git/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/order_service.git/app/order_api/api/UserClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/order_service.git/app/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/order_service.git/app/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/frontend.git/app/frontend/api/ProductClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/order_service.git/app/order_api/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/frontend.git/app/static/images/apple.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/frontend.git/app/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/frontend.git/app/frontend/api/OrderClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/frontend.git/app/frontend/templates/base_col_1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/frontend.git/app/frontend/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/frontend.git/app/frontend/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/frontend.git/app/frontend/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/frontend.git/app/frontend/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/user_service.git/app/user_api/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/user_service.git/app/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/FlaskMicroService/product_service.git/app/product_api/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

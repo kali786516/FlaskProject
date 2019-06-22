@@ -1,10 +1,10 @@
-from flask import Flask,jsonify,request,Response
-from BookModel import *
+from flask import jsonify,request,Response
+from Flask.SimpleFlask.BookModel import *
 import json
-from test import *
-from settings import *
+from Flask.SimpleFlask.test import *
+from Flask.SimpleFlask.settings import *
 import jwt,datetime
-from UserModel import User
+from Flask.SimpleFlask.UserModel import User
 from functools import wraps
 
 app = Flask(__name__)

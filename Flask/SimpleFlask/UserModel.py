@@ -1,7 +1,5 @@
-from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-import json
-from settings import app
+from Flask.SimpleFlask.settings import app
 
 db = SQLAlchemy(app)
 

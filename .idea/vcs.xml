@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flask/FlaskMicroService/frontend.git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flask/FlaskMicroService/order_service.git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flask/FlaskMicroService/product_service.git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flask/FlaskMicroService/user_service.git" vcs="Git" />
   </component>
 </project>

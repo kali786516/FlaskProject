@@ -33,7 +33,7 @@ http://localhost:5009/predict_churn?customer=IN|65|415|329-6603|no|no|0|129.1|13
 
 http://localhost:5009/movie_prediction?movie=547|1865|1.0
 
-
+547,1865,1.0
 cp -rf /Users/kalit_000/Downloads/gitCode/Spark2StructuredStreaming/SparkMLModels/RatingCollaborative/Recomendation.model_v1 /Users/kalit_000/PycharmProjects/FlaskProject/RecomendationMLModels
 
 '''
